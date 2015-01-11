@@ -40,7 +40,7 @@
            <div class="content-box" style="width: 270px; padding-left: 10px; overflow: hidden;">
              <div class="content-box-inner">
                <div class="content">
-                 <div class="content-inner clearfix">
+                 <div class="content-inner clearfix" data-search-indexing-allowed="true">
                    
                    {% content %}
                           <div class="clearer"></div>
