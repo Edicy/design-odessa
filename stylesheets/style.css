@@ -304,6 +304,10 @@ background: #B64926;
   #navmenu .submenu li a.active {
     color: white;
   }
+
+  #navmenu .submenu li .edy-cbtn {
+    margin-left: 10px;
+  }
   
 /* edicy */
 
