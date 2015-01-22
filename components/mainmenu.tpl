@@ -12,8 +12,8 @@
 <ul class="submenu">{% for level2 in item.visible_children %}
                          <li{% unless level2.translated? %} class="untranslated"{% endunless %}><a href="{{ level2.url }}" {% unless level2.translated? %}class="fci-editor-menuadd"{% endunless %} {% if level2.selected? %} class="active"{% endif %}>{{ level2.title }}</a></li>
                          {% unless forloop.last %}<li>/</li>{% endunless %}{% endfor %}
-                           <li>{% menubtn iutem.hidden_children %}</li>
-<li>{% menuadd parent="item" %}</li>
+                           <li class="vg-menu-btn">{% menubtn item.hidden_children %}</li>
+<li class="vg-menu-btn">{% menuadd parent="item" %}</li>
                         </ul> <!-- //submenu -->
 {% else %}
                            {% if item.children? %}
