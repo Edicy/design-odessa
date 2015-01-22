@@ -301,12 +301,15 @@ background: #B64926;
     text-transform: none;
   }
   
-  #navmenu .submenu li a.active {
-    color: white;
+  #navmenu .submenu li.vg-menu-btn {
+    display: inline-block;
+    margin-bottom: 6px;
+    margin-left: 10px;
   }
 
-  #navmenu .submenu li .edy-cbtn {
-    margin-left: 10px;
+  #navmenu .submenu li.vg-menu-btn:last-child {
+    margin-bottom: 0;
+    margin-left: 0;
   }
   
 /* edicy */
