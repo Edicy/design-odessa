@@ -2,7 +2,7 @@
 <div class="content-box" style="width: 270px; padding-left: 10px;">
                    <div class="content-box-inner">
                      <div class="content content-yellow">
-                       <div class="content-inner">
+                       <div class="content-inner clearfix">
                          <h1>{{ "latest_news" |lc}}</h1>
                          <table id="news">
                            <tbody>{% for article in site.latest_3_articles %}

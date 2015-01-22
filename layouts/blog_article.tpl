@@ -28,7 +28,7 @@
            <div class="content-box" style="width: 270px;">
              <div class="content-box-inner">
                <div class="content content-green">
-                 <div class="content-inner">
+                 <div class="content-inner clearfix">
                    <br />
                    <h1 style="text-align: center;" class="clearfix">{% if editmode %}{% editable site.header %}{%else%}<a href="{{ site.root_item.url }}">{% editable site.header %}</a>{% endif %}</h1>
                  </div>
@@ -45,7 +45,7 @@
                  <div class="content-box" style="width: 550px;">
                    <div class="content-box-inner">
                      <div class="content">
-                       <div class="content-inner">
+                       <div class="content-inner clearfix">
                          <h1>{{ page.title }}</h1>
                          <div class="blog clearfix">
                            <h2 class="clearfix">{% editable article.title plain="true" %}</h2> 
@@ -102,7 +102,7 @@
                  <div class="content-box" style="width: 270px;">
                    <div class="content-box-inner">
                      <div class="content content-yellow">
-                       <div class="content-inner">
+                       <div class="content-inner clearfix">
                          
                          <div id="addcomment">
 {% unless comment.valid? %}<ul>
@@ -143,7 +143,7 @@
                  <div class="content-box" style="width: 270px;">
                    <div class="content-box-inner">
                      <div class="content content-green">
-                       <div class="content-inner">
+                       <div class="content-inner clearfix">
                          
                          <h1><a href="{{ bloglink }}">{{ "older_news" |lc }}</a></h1>
                        </div>

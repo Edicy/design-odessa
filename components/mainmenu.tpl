@@ -1,7 +1,7 @@
-<div class="content-box" style="width: 270px; overflow-x: hidden;">
+<div class="content-box clearfix" style="width: 270px;">
              <div class="content-box-inner">
                <div class="content">
-                 <div class="content-inner" style="width: 210px; overflow-x: hidden;">
+                 <div class="content-inner clearfix" style="width: 210px;">
                    
                    <ul id="navmenu">
                      {% if editmode %}<li><a href="{{ site.root_item.url }}"{% if site.root_item.selected? %} class="active"{% endif %}>{{site.root_item.title}}</a></li>{% endif %}

@@ -28,7 +28,7 @@
            <div class="content-box" style="width: 270px;">
              <div class="content-box-inner">
                <div class="content content-green">
-                 <div class="content-inner">
+                 <div class="content-inner clearfix">
                    <br />
                    <h1 style="text-align: center;" class="clearfix">{% if editmode %}{% editable site.header %}{%else%}<a href="{{ site.root_item.url }}">{% editable site.header %}</a>{% endif %}</h1>
                  </div>
@@ -37,7 +37,7 @@
            </div>
          </td>
          <td>
-           <div class="content-box" style="width: 270px; padding-left: 10px; overflow: hidden;">
+           <div class="content-box clearfix" style="width: 270px; padding-left: 10px;">
              <div class="content-box-inner">
                <div class="content">
                  <div class="content-inner clearfix" data-search-indexing-allowed="true">
