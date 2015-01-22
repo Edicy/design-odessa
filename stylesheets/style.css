@@ -315,12 +315,14 @@ background: #B64926;
   
   #navmenu .submenu li.vg-menu-btn {
     display: inline-block;
+    margin-right: 15px;
     margin-bottom: 6px;
     margin-left: 10px;
   }
 
   #navmenu .submenu li.vg-menu-btn:last-child {
     margin-bottom: 0;
+    margin-right: 0;
     margin-left: 0;
   }
   
