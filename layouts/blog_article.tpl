@@ -53,10 +53,10 @@
                               {{ "author" |lc }}: {{ article.author.name }} - {{ article.created_at | format_date:"short" }}
                             </div>
 
-                           <div data-search-indexing-allowed="true">{% editable article.excerpt %}</div>
+                           <div class="content-hyphenate" data-search-indexing-allowed="true">{% editable article.excerpt %}</div>
 <div style="height: 15px;"></div>
 
-         <div data-search-indexing-allowed="true">{% editable article.body %}</div>
+         <div class="content-hyphenate" data-search-indexing-allowed="true">{% editable article.body %}</div>
          
                          {% if editmode %}
                                 <div class="article-tags">
@@ -76,7 +76,7 @@
                           
                           </div> <!-- //blog -->
                          <a name="comments"></a>
-                         <div class="comments"><h2>{{ "comments_for_count" | lc }}: <span class="edy-site-blog-comments-count">{{ article.comments_count }}</span></h2>
+                         <div class="comments content-hyphenate"><h2>{{ "comments_for_count" | lc }}: <span class="edy-site-blog-comments-count">{{ article.comments_count }}</span></h2>
                            {% for comment in article.comments %}
                             <div class="comment edy-site-blog-comment">
     

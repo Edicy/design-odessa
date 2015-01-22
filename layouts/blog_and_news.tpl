@@ -45,7 +45,7 @@
                  <div class="content-box" style="width: 550px;">
                    <div class="content-box-inner">
                      <div class="content">
-                       <div class="content-inner clearfix">
+                       <div class="content-inner clearfix content-hyphenate">
                          <h1>{{ page.title }}</h1>
                          
                          {% if tags %}

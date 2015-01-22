@@ -43,7 +43,7 @@
                  <div class="content-box" style="width: 550px;">
                    <div class="content-box-inner">
                      <div class="content">
-                       <div class="content-inner clearfix" data-search-indexing-allowed="true">
+                       <div class="content-inner clearfix content-hyphenate" data-search-indexing-allowed="true">
                          {% content %}
                           <div class="clearer"></div>
                        </div>

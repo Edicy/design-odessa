@@ -49,6 +49,13 @@ img { border: none; }
   hyphens: auto;
 }
 
+.content-hyphenate {
+  word-break: break-word;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+}
 
 p {
   margin: 0;
@@ -164,6 +171,11 @@ h3 {
   
   .content-box {
     margin-top: 7px;
+    word-break: break-word;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
   }
   .content-box-inner {
     padding: 0 0px 7px 0px;
