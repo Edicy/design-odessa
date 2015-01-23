@@ -635,3 +635,24 @@ div.edy-taglist-openarrow:after {
 #content .edy-btn-removecomment:hover {
   text-decoration: none !important;
 }
+
+#content .edy-taglist {
+  border-color: rgba(255,255,255,.2);
+}
+
+#content .edy-tag-input::-webkit-input-placeholder {
+  color: inherit;
+  opacity: .5;
+}
+#content .edy-tag-input:-ms-input-placeholder {
+  color: inherit;
+  opacity: .5;
+}
+#content .edy-tag-input::-moz-placeholder {
+  color: inherit;
+  opacity: .5;
+}
+#content .edy-tag-input:-moz-placeholder {
+  color: inherit;
+  opacity: .5;
+}
