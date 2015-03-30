@@ -1,5 +1,5 @@
 {% if editmode %}
-<ul id="langmenu">
+<ul id="langmenu"{% if site.search.enabled %} class="search-enabled"{% endif %}>
 {% for language in site.languages %}
 	      <li><a href="{{ language.url }}"{% if language.selected? %} class="active"{% endif %}>{{ language.title }}</a></li>
 	      {% unless forloop.last %}<li>/</li>{% endunless %}
@@ -7,7 +7,7 @@
 <li>{% languageadd %}</li>
 </ul>
 {% else %}
-{% if site.has_many_languages? %}<ul id="langmenu">
+{% if site.has_many_languages? %}<ul id="langmenu"{% if site.search.enabled %} class="search-enabled"{% endif %}>
 {% for language in site.languages %}
 	      <li><a href="{{ language.url }}"{% if language.selected? %} class="active"{% endif %}>{{ language.title }}</a></li>
 	      {% unless forloop.last %}<li>/</li>{% endunless %}

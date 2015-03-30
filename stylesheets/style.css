@@ -113,6 +113,9 @@ h3 {
       left: 0;
       z-index: 2;
     }
+    #langmenu.search-enabled {
+      max-width: 645px;
+    }
     
     #langmenu li {
       display: inline;
