@@ -253,6 +253,9 @@ position: static;
   #news a {
     color: white;
   }
+  #news .first {
+    min-width: 36px;
+  }
   
   #news .first, #news .first a {
     color: #b64926;
